@@ -1,4 +1,6 @@
+### 解けた ###
+
 import re
 
 W=input()
-print(re.sub(r"[a|b|c|d|e]","",W))
+print(re.sub(r"[a|e|i|o|u]","",W))
